@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix Салон красоты мэй",
+  "description": "Официальный сайт салона красоты «Тэфи» на ул. Владимира Невского, 35 в Воронеже. Онлайн-запись, каталог услуг, примеры работ, отзывы и быстрая связь.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

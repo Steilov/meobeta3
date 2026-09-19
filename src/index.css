@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Outfit", "Plus Jakarta Sans", sans-serif;
+  --font-script: "Caveat", cursive;
+  --color-brand-rose: #c57280;
+  --color-brand-rose-hover: #a84758;
+  --color-brand-blush: #f4d9df;
+  --color-brand-cream: #faf2f4;
+  --color-brand-dark: #2c2023;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  /* Dark theme (Deep warm plum-espresso & dusty rose) */
+  html.dark body {
+    background-color: #150f11;
+    color: #f7f1f2;
+  }
+
+  /* Light theme: Pure, luminous soft-porcelain canvas with high-contrast velvet-espresso text */
+  html.light body {
+    background-color: #fbf9fa;
+    color: #1a1014;
+  }
+}
+
+/* Ensure no text in light mode is ever washed out or low contrast */
+html.light .text-neutral-400 {
+  color: #5e4b52 !important;
+}
+html.light .text-neutral-500 {
+  color: #4a373d !important;
+}
+html.light .text-neutral-600 {
+  color: #38242a !important;
+}
+html.light .text-neutral-700 {
+  color: #1a1014 !important;
+}
+html.light .text-neutral-300 {
+  color: #2e1e24 !important;
+}
+
+/* Hide scrollbar for clean horizontal tab rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Custom minimal scrollbar */
+html.dark ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+html.dark ::-webkit-scrollbar-track {
+  background: #150f11;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #2e2225;
+  border-radius: 9999px;
+}
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #c57280;
+}
+
+html.light ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+html.light ::-webkit-scrollbar-track {
+  background: #fbf9fa;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #dec8cf;
+  border-radius: 9999px;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #b83e58;
+}
+
+/* Liquid Glass (Жидкое стекло) styling */
+.glass-liquid {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+html.light .glass-liquid {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 250, 252, 0.82) 100%);
+  border-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 16px 40px -6px rgba(197, 114, 128, 0.16), inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.95);
+}
+
+html.dark .glass-liquid {
+  background: linear-gradient(135deg, rgba(28, 18, 22, 0.85) 0%, rgba(20, 13, 16, 0.88) 100%);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 16px 40px -6px rgba(0, 0, 0, 0.65), inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.14);
+}
+
+/* Top rail liquid glass */
+.glass-top-bar {
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+html.light .glass-top-bar {
+  background: rgba(251, 245, 247, 0.82);
+  border-color: rgba(222, 200, 207, 0.55);
+  box-shadow: inset 0 -1px 0 0 rgba(222, 200, 207, 0.35);
+}
+html.dark .glass-top-bar {
+  background: rgba(21, 15, 17, 0.86);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+.glass-nav-pill {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+html.light .glass-nav-pill:hover {
+  background: rgba(197, 114, 128, 0.12);
+  color: #a83248 !important;
+}
+html.dark .glass-nav-pill:hover {
+  background: rgba(255, 255, 255, 0.09);
+  color: #f7cbd4 !important;
+}
+
+.glass-liquid-card {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html.light .glass-liquid-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.85) 0%, rgba(253, 247, 249, 0.72) 100%);
+  border: 1px solid rgba(230, 208, 215, 0.7);
+  box-shadow: 0 10px 30px -4px rgba(197, 114, 128, 0.1), inset 0 1px 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+html.dark .glass-liquid-card {
+  background: linear-gradient(145deg, rgba(32, 22, 26, 0.78) 0%, rgba(22, 15, 18, 0.75) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.09);
+}
+
+.glass-liquid-card:hover {
+  border-color: rgba(197, 114, 128, 0.45);
+}
+html.light .glass-liquid-card:hover {
+  box-shadow: 0 20px 40px -6px rgba(197, 114, 128, 0.18), inset 0 1px 1px 0 rgba(255, 255, 255, 1);
+}
+html.dark .glass-liquid-card:hover {
+  box-shadow: 0 20px 40px -6px rgba(0, 0, 0, 0.7), 0 0 25px rgba(197, 114, 128, 0.15), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.glass-liquid-pill {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html.light .glass-liquid-pill {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 245, 248, 0.8) 100%);
+  border: 1px solid rgba(222, 200, 207, 0.75);
+  box-shadow: 0 4px 12px rgba(197, 114, 128, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+html.dark .glass-liquid-pill {
+  background: linear-gradient(135deg, rgba(35, 23, 27, 0.85) 0%, rgba(25, 17, 20, 0.82) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Floating animation utilities */
+@keyframes liquid-float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.01);
+  }
+}
+
+@keyframes liquid-pulse-glow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.animate-liquid-float {
+  animation: liquid-float 6s ease-in-out infinite;
+}
+
+.animate-liquid-glow {
+  animation: liquid-pulse-glow 8s ease-in-out infinite;
+}
+
+/* Touch feedback and mobile viewport optimizations */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+

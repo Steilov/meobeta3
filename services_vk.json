@@ -1,0 +1,402 @@
+{
+  "getServices": {
+    "response": {
+      "is_skip_items_count": true,
+      "items": [
+        {
+          "availability": 0,
+          "category": {
+            "inner_type": "market_market_category_nested",
+            "id": 2055,
+            "name": "Cosmetology",
+            "is_v2": false,
+            "parent": {
+              "inner_type": "market_market_category_nested",
+              "id": 1203,
+              "name": "Beauty and health",
+              "is_v2": false,
+              "parent": {
+                "inner_type": "market_market_category_nested",
+                "id": 12,
+                "name": "Other",
+                "is_v2": false
+              }
+            }
+          },
+          "description": "Микронидлинг — инновационная методика, которая запускает естественные процессы обновления кожи!\n\nЧто это такое?\nМикро��идлинг (или коллагеностимуляция) — это контролируемое воздействие на кожу микроиглами. Процедура стимулирует регенерацию на клеточном уровне, пробуждая внутренние ресурсы вашей кожи.\n\nЧто вы получите в результате:\n* активизируется выработка коллагена и эластина — кожа становится более упругой;\n* выравнивается рельеф и тон кожи — исчезают неровности и тусклость;\n* сокращаются поры и мелкие морщины — лицо выглядит свежее;\n* уменьшаются следы постакне и пигментация — тон становится ровнее;\n* улучшается впитываемость уходовых средств — ваша косметика работает эффективнее.\n\n🔎 Эффект заметен уже после первых сеансов: кожа становится более упругой, гладкой и сияющей! Вы заметите, как взгляд становится ярче, а отражение в зеркале — моложе.\n\nКому подойдёт микронидлинг?\n* если появились первые признаки старения;\n* при неровном рельефе кожи или расширенных порах;\n* для борьбы с постакне, рубцами и следами воспалений;\n* при тусклом цвете лица и усталости кожи;\n* для профилактики возрастных изменений — чтобы сохранить молодость надолго.\n\n💫 Результат без хирургического вмешательства — только естественные ресурсы вашей кожи! Никаких инъекций и радикальных мер: микронидлинг работает мягко, но эффективно.\n\n🛡️ Безопасность и комфорт:\n* процедура проводится сертифицированными специалистами;\n* используются одноразовые стерильные насадки;\n* перед сеансом наносится обезболивающий крем — дискомфорт сведён к минимуму.\n\n📲 Записывайтесь на консультацию в студии МЕО прямо сейчас!\nНаши эксперты оценят состояние вашей кожи и подберут оптимальный курс процедур.\n\nКак это сделать:\n* позвоните нам: +7 951-553-35-78;\n* напишите в Direct: https://vk.com/natalya_meo ;\n* узнайте больше #процедуры_в_мео \n\nПодарите своей коже второе дыхание — доверьтесь профессионалам студии МЕО! ❤️\n\n-",
+          "id": 12489416,
+          "owner_id": -218391917,
+          "price": {
+            "amount": "650000",
+            "currency": {
+              "id": 643,
+              "name": "RUB",
+              "title": "₽"
+            },
+            "text": "6,500 ₽",
+            "price_type": 0,
+            "price_unit": 0,
+            "discount_rate": -28,
+            "old_amount": "899000",
+            "old_amount_text": "8,990 ₽"
+          },
+          "title": "Микронидлинг",
+          "item_type": 0,
+          "is_price_list_service": true,
+          "is_owner": false,
+          "is_adult": false,
+          "thumb_photo": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x400&quality=95&background=ffffff&crop=0.084,0,0.833,1&sign=fd10f7a890305628d6341efdf93cf5e6&c_uniq_tag=w7gwL3kFm8eetm8LYobCkZbWCshWOByKtLze_RywaSI&type=market_thumb",
+          "csrf_hashes": "fav=b5119c576e9cbe6b7f&wishlist=ebcd40121745207d0e",
+          "thumb": [
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x90&quality=95&background=ffffff&crop=0.083,0,0.833,1&sign=17521001ea3b06c7346a67acf3eb778d&c_uniq_tag=s_mneTHh-sKq16v79rUdrNcmlltNPZJkX0NnQhwRziQ&type=market_thumb",
+              "width": 90,
+              "height": 90
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x180&quality=95&background=ffffff&crop=0.083,0,0.833,1&sign=06ad69cb83aeed58acc44d7adb35ca78&c_uniq_tag=jkVUsRWuI4MR2wrmWJtrrLNlA5RuTRt1gHrkOKH7uB0&type=market_thumb",
+              "width": 180,
+              "height": 180
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x360&quality=95&background=ffffff&crop=0.083,0,0.833,1&sign=87952d16230cb2152c3d091b9fb973b5&c_uniq_tag=kcWTZ_sxWnf3V0vIk7IWD_ApEXU8ls1L9a4-FHfz2v8&type=market_thumb",
+              "width": 360,
+              "height": 360
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x480&quality=95&background=ffffff&crop=0.083,0,0.833,1&sign=497a17baa5997a3574a1f2e0db152efc&c_uniq_tag=8Kju6KlNty_S8eJpnjc0_C5IR6eJmDKrPyok3g3JHYk&type=market_thumb",
+              "width": 480,
+              "height": 480
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/lWOad1P1pi8DHp-sVmjWDKw0z4vt5f4LMSOoOA/PHe3VG5Zakw.jpg?size=0x640&quality=95&background=ffffff&crop=0.084,0,0.833,1&sign=57a9dc8e65a635cf3e51d87b335dbe5e&c_uniq_tag=xFOyrQWon1PQzL54592EVmZvFfRFMW0vl_w67c2kdUo&type=market_thumb",
+              "width": 640,
+              "height": 640
+            }
+          ],
+          "is_hardblocked": false,
+          "buttons": [
+            {
+              "type": 0,
+              "user_name": "Natalya Vishnevskaya",
+              "title": "Book",
+              "user_id": 174474961,
+              "title_type": 2,
+              "custom_text": "Hello!\n\nI'm interested in this service."
+            }
+          ],
+          "has_group_access": true,
+          "seo_slug": "mikronidling",
+          "seo_title": "Buy Микронидлинг for 6,500 rub. in МЕО | коррекция фигуры и косметология | Воронеж catalog on VK Market",
+          "seo_description": "Микронидлинг за 6,500 rub. ✨ Cosmetology по выгодной цене ✨ Широкий ассортимент ✨ Фото ✨ Отзывы 🚚 Доставка по России 🟦 ВК Маркет",
+          "market_url": "https://vk.ru/market/product/mikronidling-218391917-12489416"
+        },
+        {
+          "availability": 0,
+          "category": {
+            "inner_type": "market_market_category_nested",
+            "id": 2059,
+            "name": "Massage",
+            "is_v2": false,
+            "parent": {
+              "inner_type": "market_market_category_nested",
+              "id": 1203,
+              "name": "Beauty and health",
+              "is_v2": false,
+              "parent": {
+                "inner_type": "market_market_category_nested",
+                "id": 12,
+                "name": "Other",
+                "is_v2": false
+              }
+            }
+          },
+          "description": "Программа «Похудение» включает в себя 5 процедур за один сеанс:\n1. Вибромассаж\n2. Вакуумный массаж\n3. Миостимуляция/ковитация\n4. Обертывание: contrast/T-shok/HQBM\n5. Детокстерапия/ИК одеяло\n\nОзнакомиться как работает каждая услуга в отдельности можно по ссылке https://vk.ru/wall-218391917_968",
+          "id": 11542334,
+          "owner_id": -218391917,
+          "price": {
+            "amount": "468000",
+            "currency": {
+              "id": 643,
+              "name": "RUB",
+              "title": "₽"
+            },
+            "text": "4,680 ₽",
+            "price_type": 0,
+            "price_unit": 0,
+            "discount_rate": -64,
+            "old_amount": "1298000",
+            "old_amount_text": "12,980 ₽"
+          },
+          "title": "Программа 5в1 «Похудение»",
+          "item_type": 0,
+          "is_price_list_service": true,
+          "is_owner": false,
+          "is_adult": false,
+          "thumb_photo": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=333x0&quality=95&background=ffffff&crop=0,0.099,1,0.802&sign=8fc15ff786c516d130c3c0fcf0c7da04&c_uniq_tag=vLsmIuES04WB0PcPK3ZJsoWNAYjJeXIkfCI2EWgCuXg&type=market_thumb",
+          "csrf_hashes": "fav=1f41ea22b6ec7fd796&wishlist=80bca3cf629418e718",
+          "thumb": [
+            {
+              "url": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=75x0&quality=95&background=ffffff&crop=0,0.099,1,0.801&sign=5d7b83a786e80068e1e566cb8b97ca90&c_uniq_tag=P4xNakZTLCBoU45wWSExGrO5tBcbWU3iP9lyb3lkxUI&type=market_thumb",
+              "width": 90,
+              "height": 90
+            },
+            {
+              "url": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=150x0&quality=95&background=ffffff&crop=0,0.099,1,0.801&sign=4294aff301cf9774d354c16222c893a1&c_uniq_tag=4CSH-uTwjhsxH9uln-nBXxJS3clNBpj3Y_oY9gWpa7k&type=market_thumb",
+              "width": 180,
+              "height": 180
+            },
+            {
+              "url": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=300x0&quality=95&background=ffffff&crop=0,0.099,1,0.801&sign=e988529a80a5c905febcd2e36ee8b9b4&c_uniq_tag=h6BsFwUw1DHr_A9xv1vkmJ_zl2OTkCDDeMk7ZaVFKDs&type=market_thumb",
+              "width": 360,
+              "height": 360
+            },
+            {
+              "url": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=400x0&quality=95&background=ffffff&crop=0,0.099,1,0.801&sign=d25a17d2100998ce3fa0db979b16e00e&c_uniq_tag=8aMdzhaiMVetkYsBMq5BFqxf9u5-_G8S_OZNRSePh6o&type=market_thumb",
+              "width": 480,
+              "height": 480
+            },
+            {
+              "url": "https://sun9-1.vkuserphoto.ru/impg/K2ltAZ3efac07Qf1n5-OrV58Yf-2HpQ66JRb3A/ArClpd52k98.jpg?size=0x626&quality=95&background=ffffff&crop=0,0,1,1&sign=7558eb3180fee430d919c3f80e53538b&c_uniq_tag=gBE3I9AedkjyxynV1_XNculSTR0lzsWh9zzVwm3whHM&type=market_thumb",
+              "width": 640,
+              "height": 640
+            }
+          ],
+          "is_hardblocked": false,
+          "buttons": [
+            {
+              "type": 0,
+              "user_name": "Natalya Vishnevskaya",
+              "title": "Book",
+              "user_id": 174474961,
+              "title_type": 2,
+              "custom_text": "Hello!\n\nI'm interested in this service."
+            }
+          ],
+          "has_group_access": true,
+          "seo_slug": "programma-5v1-pokhudenie",
+          "seo_title": "Buy Программа 5в1 «Похудение» for 4,680 rub. in МЕО | коррекция фигуры и косметология | Воронеж catalog on VK Market",
+          "seo_description": "Программа 5в1 «Похудение» за 4,680 rub. ✨ Massage по выгодной цене ✨ Широкий ассортимент ✨ Фото ✨ Отзывы 🚚 Доставка по России 🟦 ВК Маркет",
+          "market_url": "https://vk.ru/market/product/programma-5v1-pokhudenie-218391917-11542334"
+        },
+        {
+          "availability": 0,
+          "category": {
+            "inner_type": "market_market_category_nested",
+            "id": 2055,
+            "name": "Cosmetology",
+            "is_v2": false,
+            "parent": {
+              "inner_type": "market_market_category_nested",
+              "id": 1203,
+              "name": "Beauty and health",
+              "is_v2": false,
+              "parent": {
+                "inner_type": "market_market_category_nested",
+                "id": 12,
+                "name": "Other",
+                "is_v2": false
+              }
+            }
+          },
+          "description": "Пилинг для лица — процедура, направленная на отшелушивание омертвевших клеток верхнего слоя эпидермиса. Цель — обновить кожу, улучшить её текстуру, уменьшить видимость морщин, пигментных пятен и других дефектов. \n\nПольза пилинга:\n✔Стимуляция регенерации — удаление омертвевших клеток запускает естественные механизмы регенерации. \n\n✔Стимуляция выработки коллагена — это повышает упругость кожи. \n\n✔Выравнивание тона — пилинги устраняют пигментацию, осветляют и делают цвет лица более ровным. \n\n✔Уменьшение морщин — регулярные процедуры разглаживают мелкие и глубокие складки. \n\n✔Лечение акне и постакне — пилинги помогают избавиться от воспалений, очищают поры и уменьшают проявления рубцов и пигментации, возникающих после акне.\n\nЭта процедура подходит вам, если желаете улучшить качество и сохранить молодость кожи лица.\n\nЗаписывайтесь прямо сейчас и получи скидку на первую процедуру💖",
+          "id": 11153168,
+          "owner_id": -218391917,
+          "price": {
+            "amount": "450000",
+            "currency": {
+              "id": 643,
+              "name": "RUB",
+              "title": "₽"
+            },
+            "text": "4,500 ₽",
+            "price_type": 0,
+            "price_unit": 0
+          },
+          "title": "Пилинг",
+          "item_type": 0,
+          "is_price_list_service": true,
+          "is_owner": false,
+          "is_adult": false,
+          "thumb_photo": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=333x0&quality=95&background=ffffff&crop=0,0.05,1,0.901&sign=ef8f83d984462530b824380cf6d5907a&c_uniq_tag=oFOP5M8RdGmWbllOH7sCBNdd7A1NyD-raUb9OLMx0yQ&type=market_thumb",
+          "csrf_hashes": "fav=b0b45af2809c7c0606&wishlist=83d3247e63fd46eaa2",
+          "thumb": [
+            {
+              "url": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=75x0&quality=95&background=ffffff&crop=0,0.05,1,0.9&sign=68c635fa3f579907697b237070717cb2&c_uniq_tag=1l6DNBfzARzU3McRueyz9x8WQN5GXves6ldquJDvFvk&type=market_thumb",
+              "width": 90,
+              "height": 90
+            },
+            {
+              "url": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=150x0&quality=95&background=ffffff&crop=0,0.05,1,0.9&sign=88527d963b06a889113ccb9c6a6e05e2&c_uniq_tag=ySsWpTOIfNe5p-bEcHFXIke5S6wL0mkwvo9Rjw1miqg&type=market_thumb",
+              "width": 180,
+              "height": 180
+            },
+            {
+              "url": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=300x0&quality=95&background=ffffff&crop=0,0.05,1,0.9&sign=003c7e3500492d843e536f02290b9094&c_uniq_tag=P-m7UIJGRDgQKwIOuXMtWZ38_SEEBKQS8U-6Uo8O5ag&type=market_thumb",
+              "width": 360,
+              "height": 360
+            },
+            {
+              "url": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=400x0&quality=95&background=ffffff&crop=0,0.05,1,0.9&sign=75888dfd891e57060a8be97af851e955&c_uniq_tag=Sey1MyrLGNz0l64pvjdcM1qzYUYqlInCWWvwbHUTwTY&type=market_thumb",
+              "width": 480,
+              "height": 480
+            },
+            {
+              "url": "https://sun9-67.vkuserphoto.ru/impg/ZpSRESPHdbDDXHP1hXfi0NbUOoDc4yAabmU7jg/qH63Te7Z8kc.jpg?size=533x0&quality=95&background=ffffff&crop=0,0.05,1,0.901&sign=f672b416bc61550b32b76a3c1808553e&c_uniq_tag=ODjVpnC1cTKG7dEA6hoOnm0OAPvIXnzWX-jaPxTjKnI&type=market_thumb",
+              "width": 640,
+              "height": 640
+            }
+          ],
+          "is_hardblocked": false,
+          "buttons": [
+            {
+              "type": 0,
+              "user_name": "Natalya Vishnevskaya",
+              "title": "Book",
+              "user_id": 174474961,
+              "title_type": 2,
+              "custom_text": "Hello!\n\nI'm interested in this service."
+            }
+          ],
+          "has_group_access": true,
+          "seo_slug": "piling",
+          "seo_title": "Buy Пилинг for 4,500 rub. in МЕО | коррекция фигуры и косметология | Воронеж catalog on VK Market",
+          "seo_description": "Пилинг за 4,500 rub. ✨ Cosmetology по выгодной цене ✨ Широкий ассортимент ✨ Фото ✨ Отзывы 🚚 Доставка по России 🟦 ВК Маркет",
+          "market_url": "https://vk.ru/market/product/piling-218391917-11153168"
+        },
+        {
+          "availability": 0,
+          "category": {
+            "inner_type": "market_market_category_nested",
+            "id": 2059,
+            "name": "Massage",
+            "is_v2": false,
+            "parent": {
+              "inner_type": "market_market_category_nested",
+              "id": 1203,
+              "name": "Beauty and health",
+              "is_v2": false,
+              "parent": {
+                "inner_type": "market_market_category_nested",
+                "id": 12,
+                "name": "Other",
+                "is_v2": false
+              }
+            }
+          },
+          "description": "Глубокий массаж лица - это уникальная техника, которая активизирует работы всех мышц и связок лица, улучшает их тонус и эластичность.\nБлагодаря этой техники происходит полноценная проработка мышц, активизируются обменные процессы и повышается общий тонус кожи. \nЭто один из самых эффективных, безопасных и, что немаловажно, приятных способов продлить молодость и сохранить свежесть лица.\nКак работает глубокотканный массаж?\n\nГлубокотканный массаж лица воздействует на все слои кожи, включая мышцы и связки, благодаря чему достигается многогранный эффект:\n\n✔Активизация кровообращения: Массаж способствует улучшению циркуляции крови, что увеличивает снабжение клеток кислородом и питательными веществами. В результате кожа приобретает здоровый румянец и сияние.\n✔Стимуляция лимфодренажа: Ускоряя лимфоток, глубокотканный массаж способствует выведению токсинов и лишней жидкости, уменьшая отечность и способствуя улучшению текстуры кожи.\n✔Расслабление мышц: Массажные техники помогают снять напряжение в мышцах лица, шеи и плеч, что не только расслабляет, но и снижает уровень стресса, улучшает сон и помогает справиться с головными болями и тревожностью.\n\nКакие результаты вас ждут?\n\n▪После курса глубокотканного массажа лица вы сможете увидеть:\nЯрко выраженный лифтинг-эффект: Кожа станет более подтянутой, а овал лица — четким и выразительным. Это особенно важно для тех, кто хочет вернуть лицу молодость без хирургического вмешательства.\n\n▪Ровный тон и текстура кожи: Благодаря активизации кровообращения и лимфодренажу, кожа приобретет здоровое сияние и станет более гладкой. Небольшие несовершенства, такие как пигментные пятна и расширенные поры, станут менее заметными.\n\n▪Уменьшение выраженности морщин: Проработка глубоких слоев кожи помогает расслабить мышцы и разгладить мелкие и средние морщины, делая кожу более свежей и ухоженной.\n\n▪Снижение отечности и мешков под глазами: Улучшение лимфотока способствует выведению излишков жидкости и токсинов, благодаря чему лицо выглядит более отдохнувшим и свежим.\n\n▪Повышение эластичности и упругости кожи: Стимуляция естественной выработки коллагена и эластина делает кожу более упругой и устойчивой к возрастным изменениям.\n\n▪Общее улучшение самочувствия: Помимо косметического эффекта, глубокотканный массаж лица также способствует снятию мышечного напряжения, улучшению настроения и снижению уровня стресса. Вы почувствуете себя обновленными, отдохнувшими и полными энергии.\n\nДля кого подходит глубокотканный массаж лица?\n\nЭта процед��ра универсальна и подходит для разных возрастных групп и типов кожи:\n\n✔Для молодых людей: Массаж помогает поддерживать упругость и тонус кожи, предотвращая преждевременное старение и появление первых морщин. Регулярные сеансы могут стать профилактикой возрастных изменений.\n✔Для тех, кто замечает первые признаки старения: Глубокотканный массаж позволяет снизить выраженность морщин, улучшить овал лица и подтянуть кожу, не прибегая к инъекциям и другим инвазивным методам.\n✔Для возрастной кожи: Если вы хотите вернуть коже здоровый и свежий вид, эта процедура станет отличным выбором. Глубокотканный массаж стимулирует выработку коллагена и эластина, улучшает микроциркуляцию и восстанавливает кожный покров.\n\nПреимущества глубокотканного массажа лица перед другими методами\n\n▪Натуральность и безопасность: глубокотканный массаж не повреждает кожу и не вызывает аллергических реакций. Это естественный метод, который подходит даже для самой чувствительной кожи.\n▪Комплексное воздействие: Процедура не только омолаживает лицо, но и помогает снять напряжение с мышц шеи и плеч, что способствует общему расслаблению и снижению уровня стресса.\n▪Продолжительный эффект: Результаты становятся заметны уже после первых сеансов и продолжают усиливаться с каждым последующим. \n\nПолюби свое отражение в ",
+          "id": 10117908,
+          "owner_id": -218391917,
+          "price": {
+            "amount": "280000",
+            "currency": {
+              "id": 643,
+              "name": "RUB",
+              "title": "₽"
+            },
+            "text": "2,800 ₽",
+            "price_type": 0,
+            "price_unit": 0
+          },
+          "title": "Глубокотканный лифтинг массаж лица",
+          "item_type": 0,
+          "is_price_list_service": true,
+          "is_owner": false,
+          "is_adult": false,
+          "thumb_photo": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x400&quality=95&background=ffffff&crop=0.087,0,0.827,1&sign=c9f31de4926a2bfa5aa7c4b664a4292a&c_uniq_tag=s3bEOvvUrH19zsyLMJi5JsnJVSN0WoKboBgDT_FWvGg&type=market_thumb",
+          "csrf_hashes": "fav=f2914bd6278cd16ec4&wishlist=a5037fc3a28a41e926",
+          "thumb": [
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x90&quality=95&background=ffffff&crop=0.086,0,0.828,1&sign=bb7beabcd916e40e8fd7f674e5ebc986&c_uniq_tag=4b5-Wo7rFooIqgKH9ZGzNk1VI6birmFD5w_VUM1lBmg&type=market_thumb",
+              "width": 90,
+              "height": 90
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x180&quality=95&background=ffffff&crop=0.086,0,0.828,1&sign=72dfadac84111994d5f60ce20aee32cd&c_uniq_tag=7PAZGGZb_Oi5juC4a5ePcltoU78WFwjk6NRzABXCDD0&type=market_thumb",
+              "width": 180,
+              "height": 180
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x360&quality=95&background=ffffff&crop=0.086,0,0.828,1&sign=c420517d138072a44e0da6ac99aeaa24&c_uniq_tag=ywvDwhU5niNr7qPEy7d7nckDWC5pl2NJeHdOxaHK0R0&type=market_thumb",
+              "width": 360,
+              "height": 360
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x480&quality=95&background=ffffff&crop=0.086,0,0.828,1&sign=63acb7378cf32477ad0fb53f6373fd94&c_uniq_tag=bUmsH8-tTofsvmX4U9K3w1hCVA4fbnX-koMnrWYhSxw&type=market_thumb",
+              "width": 480,
+              "height": 480
+            },
+            {
+              "url": "https://sun9-34.vkuserphoto.ru/impg/M2qCbq3W06gLAjzMFkBy37L6_LqYrV8UZ_V3pQ/Kvi7wGGX6D4.jpg?size=0x640&quality=95&background=ffffff&crop=0.086,0,0.827,1&sign=bc118d2796848f23e5821c15ce4d12a8&c_uniq_tag=lzUOop4I6Dg--3L8n_MMq0FuKhQiEnHZIlYZ6AfFGPg&type=market_thumb",
+              "width": 640,
+              "height": 640
+            }
+          ],
+          "is_hardblocked": false,
+          "buttons": [
+            {
+              "type": 0,
+              "user_name": "Natalya Vishnevskaya",
+              "title": "Book",
+              "user_id": 174474961,
+              "title_type": 2,
+              "custom_text": "Hello!\n\nI'm interested in this service."
+            }
+          ],
+          "has_group_access": true,
+          "seo_slug": "glubokotkanny-lifting-massazh-litsa",
+          "seo_title": "Buy Глубокотканный лифтинг массаж лица for 2,800 rub. in МЕО | коррекция фигуры и косметология | Воронеж catalog on VK Market",
+          "seo_description": "Глубокотканный лифтинг массаж лица за 2,800 rub. ✨ Massage по выгодной цене ✨ Широкий ассортимент ✨ Фото ✨ Отзывы 🚚 Доставка по России 🟦 ВК Маркет",
+          "market_url": "https://vk.ru/market/product/glubokotkanny-lifting-massazh-litsa-218391917-10117908"
+        }
+      ],
+      "sections": [
+        {
+          "count": 18,
+          "id": "HUkaVBlaHgoqRwcDWVg2",
+          "title": "Services",
+          "view_type": 1,
+          "item_ids": [
+            "-218391917_12489416",
+            "-218391917_11542334",
+            "-218391917_11153168",
+            "-218391917_10117908"
+          ]
+        }
+      ],
+      "sections_count": 1
+    }
+  },
+  "get": {
+    "error": {
+      "error_code": 15,
+      "error_msg": "Access denied",
+      "request_params": [
+        {
+          "key": "owner_id",
+          "value": "-218391917"
+        },
+        {
+          "key": "v",
+          "value": "5.289"
+        },
+        {
+          "key": "extended",
+          "value": "1"
+        },
+        {
+          "key": "count",
+          "value": "100"
+        },
+        {
+          "key": "method",
+          "value": "market.get"
+        },
+        {
+          "key": "oauth",
+          "value": "1"
+        }
+      ]
+    }
+  }
+}
