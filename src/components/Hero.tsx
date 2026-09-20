@@ -56,19 +56,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExplorePortfolio, o
     >
       {/* Background Organic Wave Accents inspired by the photo */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden select-none">
-        {/* Soft fluid glowing aura */}
-        <motion.div
-          animate={{
-            scale: [1, 1.1, 1],
-            opacity: [0.35, 0.5, 0.35],
-          }}
-          transition={{
-            duration: 10,
-            repeat: Infinity,
-            ease: 'easeInOut',
-          }}
-          className={`absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[550px] rounded-full blur-3xl ${
-            isDark ? 'bg-[#C57280]/15' : 'bg-[#F4D9DF]/60'
+        {/* Soft fluid glowing aura - static on mobile, subtle on desktop to save battery & GPU */}
+        <div
+          className={`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] lg:w-[900px] h-[400px] lg:h-[550px] rounded-full blur-2xl lg:blur-3xl opacity-40 will-change-transform ${
+            isDark ? 'bg-[#C57280]/20' : 'bg-[#F4D9DF]/70'
           }`}
         />
 
@@ -158,10 +149,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExplorePortfolio, o
         {/* HERO PANORAMA CARD: DIRECT VISUAL TWIN OF THE USER'S PHOTO */}
         {/* ========================================================================= */}
         <motion.div
-          initial={{ opacity: 0, y: 35, scale: 0.98 }}
-          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.45, ease: 'easeOut' }}
           className={`relative rounded-3xl border overflow-hidden shadow-2xl transition-all duration-300 glass-liquid-card ${
             isDark
               ? 'border-[#C57280]/30 shadow-[#C57280]/10'

@@ -507,16 +507,14 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ onSelectServ
             {filteredItems.map((item, index) => (
               <motion.div
                 key={item.id}
-                initial={{ opacity: 0, y: 38, scale: 0.96 }}
-                whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                viewport={{ once: true, margin: '-50px' }}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-20px' }}
                 transition={{
-                  duration: 0.55,
-                  delay: (index % 3) * 0.09,
-                  ease: [0.16, 1, 0.3, 1],
+                  duration: 0.35,
+                  ease: 'easeOut',
                 }}
-                whileHover={{ y: -6, scale: 1.015, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } }}
-                className="glass-liquid-card rounded-2xl overflow-hidden border transition-all duration-300 flex flex-col group shadow-sm hover:shadow-xl"
+                className="glass-liquid-card rounded-2xl overflow-hidden border transition-all duration-300 md:hover:-translate-y-1 flex flex-col group shadow-sm hover:shadow-xl"
               >
                 <div
                   className="relative aspect-[4/3] overflow-hidden bg-neutral-900 cursor-pointer"
@@ -598,7 +596,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ onSelectServ
 
         {/* Modal with optional Before/After view */}
         {activeModalItem && (
-          <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-end sm:items-center justify-center p-0 sm:p-4">
+          <div className="fixed inset-0 z-50 bg-black/80 sm:backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4">
             <div className={`rounded-t-3xl sm:rounded-2xl max-w-lg w-full overflow-hidden border relative animate-in fade-in duration-200 glass-liquid ${
               isDark ? 'border-white/10 text-white' : 'border-[#DEC8CF] text-[#190F13]'
             }`}>
@@ -695,7 +693,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ onSelectServ
 
         {/* Modal for Enlarged Before/After Acne Therapy Photo */}
         {isEnlarged && (
-          <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-end sm:items-center justify-center p-0 sm:p-6">
+          <div className="fixed inset-0 z-50 bg-black/85 sm:backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-6">
             <div className={`rounded-t-3xl sm:rounded-2xl max-w-3xl w-full overflow-hidden border relative animate-in fade-in zoom-in-95 duration-200 shadow-2xl glass-liquid max-h-[90vh] flex flex-col ${
               isDark ? 'border-white/10 text-white' : 'border-[#DEC8CF] text-[#190F13]'
             }`}>

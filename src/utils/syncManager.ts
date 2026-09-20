@@ -130,11 +130,14 @@ export function initRealtimeSync() {
   // Setup EventSource for push notifications
   setupEventSource();
 
-  // Periodic polling fallback (every 4 seconds) to guarantee real-time updates
-  // even if network or proxy drops SSE temporarily
+  // Periodic polling fallback (every 12 seconds when tab is visible)
+  // to guarantee real-time updates even if network drops SSE temporarily
+  // without draining mobile CPU or battery
   const pollInterval = setInterval(() => {
-    syncFromServer();
-  }, 4000);
+    if (document.visibilityState === 'visible') {
+      syncFromServer();
+    }
+  }, 12000);
 
   // Sync immediately when tab becomes active / gains focus
   const handleVisibilityChange = () => {

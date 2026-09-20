@@ -168,19 +168,17 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({
 
         {/* Reviews Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-5">
-          {filteredReviews.map((rev, index) => (
+          {filteredReviews.map((rev) => (
             <motion.div
               key={rev.id}
-              initial={{ opacity: 0, y: 38, scale: 0.96 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
-              viewport={{ once: true, margin: '-40px' }}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-20px' }}
               transition={{
-                duration: 0.55,
-                delay: (index % 3) * 0.08,
-                ease: [0.16, 1, 0.3, 1],
+                duration: 0.35,
+                ease: 'easeOut',
               }}
-              whileHover={{ y: -5, scale: 1.015, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } }}
-              className="glass-liquid-card rounded-2xl p-4 sm:p-5 border transition-all flex flex-col justify-between"
+              className="glass-liquid-card rounded-2xl p-4 sm:p-5 border transition-all md:hover:-translate-y-1 flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-start justify-between gap-2 mb-3">

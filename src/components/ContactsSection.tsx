@@ -82,10 +82,10 @@ export const ContactsSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Left Column: Details & Callback */}
           <motion.div
-            initial={{ opacity: 0, y: 38, scale: 0.97 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-20px' }}
+            transition={{ duration: 0.35, ease: 'easeOut' }}
             className="lg:col-span-5 space-y-4"
           >
             
@@ -257,10 +257,10 @@ export const ContactsSection: React.FC = () => {
 
           {/* Right Column: Embedded Yandex Map */}
           <motion.div
-            initial={{ opacity: 0, y: 38, scale: 0.97 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.6, delay: 0.12, ease: [0.16, 1, 0.3, 1] }}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-20px' }}
+            transition={{ duration: 0.35, ease: 'easeOut' }}
             className="lg:col-span-7 flex flex-col"
           >
             <div className="glass-liquid-card p-2 rounded-2xl border flex-1 flex flex-col min-h-[360px] sm:min-h-[440px]">
@@ -271,6 +271,7 @@ export const ContactsSection: React.FC = () => {
                   width="100%"
                   height="100%"
                   frameBorder="0"
+                  loading="lazy"
                   allowFullScreen={true}
                   className="w-full h-full min-h-[320px] sm:min-h-[400px]"
                 />

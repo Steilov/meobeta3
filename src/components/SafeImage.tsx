@@ -28,6 +28,8 @@ export const SafeImage: React.FC<SafeImageProps> = ({
     <img
       src={currentSrc}
       alt={alt}
+      loading={rest.loading || "lazy"}
+      decoding={rest.decoding || "async"}
       className={className}
       onError={handleError}
       referrerPolicy="no-referrer"

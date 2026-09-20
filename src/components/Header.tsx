@@ -69,32 +69,41 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
 
-      // Keep header visible when mobile menu is open
-      if (mobileMenuOpen) {
-        setIsVisible(true);
-        lastScrollY.current = currentScrollY;
-        return;
+          // Keep header visible when mobile menu is open
+          if (mobileMenuOpen) {
+            setIsVisible(true);
+            lastScrollY.current = currentScrollY;
+            ticking = false;
+            return;
+          }
+
+          // If at or near top of page, always show header
+          if (currentScrollY <= 40) {
+            setIsVisible(true);
+          } else {
+            const delta = currentScrollY - lastScrollY.current;
+            // Scroll DOWN by more than 12px -> hide header
+            if (delta > 12) {
+              setIsVisible(false);
+            } else if (delta < -12) {
+              // Scroll UP by more than 12px -> reveal header
+              setIsVisible(true);
+            }
+          }
+
+          setIsScrolled(currentScrollY > 20);
+          lastScrollY.current = currentScrollY;
+          ticking = false;
+        });
+        ticking = true;
       }
-
-      // If at or near top of page, always show header
-      if (currentScrollY <= 40) {
-        setIsVisible(true);
-      } else {
-        const delta = currentScrollY - lastScrollY.current;
-        // Scroll DOWN by more than 8px -> hide header
-        if (delta > 8) {
-          setIsVisible(false);
-        } else if (delta < -8) {
-          // Scroll UP by more than 8px -> reveal header
-          setIsVisible(true);
-        }
-      }
-
-      setIsScrolled(currentScrollY > 20);
-      lastScrollY.current = currentScrollY;
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });

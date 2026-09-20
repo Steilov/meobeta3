@@ -192,16 +192,14 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
             {SALON_INFO.amenities.map((item, idx) => (
               <motion.div
                 key={idx}
-                initial={{ opacity: 0, y: 35, scale: 0.96 }}
-                whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                viewport={{ once: true, margin: '-40px' }}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-20px' }}
                 transition={{
-                  duration: 0.5,
-                  delay: (idx % 3) * 0.08,
-                  ease: [0.16, 1, 0.3, 1],
+                  duration: 0.35,
+                  ease: 'easeOut',
                 }}
-                whileHover={{ y: -5, scale: 1.015, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } }}
-                className="glass-liquid-card p-5 rounded-2xl border transition-all duration-300 shadow-sm hover:shadow-xl"
+                className="glass-liquid-card p-5 rounded-2xl border transition-all duration-300 md:hover:-translate-y-1 shadow-sm hover:shadow-xl"
               >
                 <div className={`w-8 h-8 rounded-xl border flex items-center justify-center mb-3 ${
                   isDark
@@ -259,9 +257,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                <motion.div
-                  whileHover={{ scale: 1.02 }}
-                  className={`p-3.5 rounded-2xl border ${
+                <div
+                  className={`p-3.5 rounded-2xl border transition-transform md:hover:scale-[1.02] ${
                     isDark ? 'bg-[#25181C] border-[#382329]' : 'bg-[#F8F2F4] border-[#DEC8CF]'
                   }`}
                 >
@@ -272,11 +269,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
                   <p className={`text-[11px] ${isDark ? 'text-neutral-400' : 'text-[#2E1D22]'}`}>
                     Устранение отечности, легкость в ногах и подтянутый тонус кожи.
                   </p>
-                </motion.div>
+                </div>
 
-                <motion.div
-                  whileHover={{ scale: 1.02 }}
-                  className={`p-3.5 rounded-2xl border ${
+                <div
+                  className={`p-3.5 rounded-2xl border transition-transform md:hover:scale-[1.02] ${
                     isDark ? 'bg-[#25181C] border-[#382329]' : 'bg-[#F8F2F4] border-[#DEC8CF]'
                   }`}
                 >
@@ -287,7 +283,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
                   <p className={`text-[11px] ${isDark ? 'text-neutral-400' : 'text-[#2E1D22]'}`}>
                     Экономия до 25% при прохождении курсовых программ.
                   </p>
-                </motion.div>
+                </div>
               </div>
 
               <div className="pt-3 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">

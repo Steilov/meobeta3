@@ -146,16 +146,14 @@ export const NewsSection: React.FC<NewsSectionProps> = ({ onOpenBooking }) => {
               return (
                 <motion.article
                   key={post.id}
-                  initial={{ opacity: 0, y: 38, scale: 0.96 }}
-                  whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                  viewport={{ once: true, margin: '-40px' }}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-20px' }}
                   transition={{
-                    duration: 0.55,
-                    delay: (index % 3) * 0.08,
-                    ease: [0.16, 1, 0.3, 1],
+                    duration: 0.35,
+                    ease: 'easeOut',
                   }}
-                  whileHover={{ y: -6, scale: 1.015, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } }}
-                  className="glass-liquid-card group rounded-2xl border overflow-hidden flex flex-col transition-all duration-300 shadow-sm hover:shadow-xl"
+                  className="glass-liquid-card group rounded-2xl border overflow-hidden flex flex-col transition-all duration-300 md:hover:-translate-y-1 shadow-sm hover:shadow-xl"
                 >
                   {/* Article Cover */}
                   <div className="relative aspect-[16/10] overflow-hidden bg-neutral-900 cursor-pointer" onClick={() => setActiveArticle(post)}>
@@ -163,6 +161,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({ onOpenBooking }) => {
                       src={post.coverImage}
                       alt={post.title}
                       loading="lazy"
+                      decoding="async"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
@@ -245,7 +244,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({ onOpenBooking }) => {
 
       {/* Full Article Reader Modal */}
       {activeArticle && (
-        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 bg-black/80 backdrop-blur-md overflow-y-auto">
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 bg-black/80 sm:backdrop-blur-sm overflow-y-auto">
           <div
             className={`relative w-full max-w-3xl rounded-t-3xl sm:rounded-2xl border shadow-2xl my-0 sm:my-auto overflow-hidden transition-all glass-liquid max-h-[90vh] flex flex-col ${
               isDark ? 'border-white/10 text-white' : 'border-[#E8CCD5] text-[#190F13]'
